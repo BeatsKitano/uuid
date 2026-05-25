@@ -1,0 +1,13 @@
+version: v2
+modules:
+  - path: .
+    name: buf.build/jpbeatskitano/uuid
+lint:
+  use:
+    - MINIMAL
+  except:
+    - PACKAGE_DIRECTORY_MATCH
+    - PACKAGE_VERSION_SUFFIX
+breaking:
+  use:
+    - FILE

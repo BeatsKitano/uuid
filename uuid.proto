@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package uuid;
+
+option go_package = "github.com/BeatsKitano/uuid";
+
+// UUID is a wrapper around a 16-byte UUID for use as a protobuf field type.
+message UUID {
+  bytes value = 1;
+}

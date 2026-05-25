@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package uuid_compat_module;
+
+import public "uuid.proto";
+
+option go_package = "github.com/BeatsKitano/uuid/buf.build/jpbeatskitano;uuid_compat_module";
